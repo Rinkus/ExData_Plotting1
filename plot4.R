@@ -32,5 +32,5 @@ plot(dat[,10], dat[,5], type = "l", lwd = "1",
 
 #bottomright graph
 plot(dat[,10], dat[,4], type = "l", lwd = "1", xlab = "datetime",
-     ylab = "names(dat[,4]")
+     ylab = "Global_reactive_power")
 dev.off()
